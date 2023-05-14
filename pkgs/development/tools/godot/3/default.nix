@@ -33,7 +33,7 @@ let
 in
 stdenv.mkDerivation rec {
   pname = "godot";
-  version = "3.5.1";
+  version = "3.5.2";
 
   src = fetchFromGitHub {
     owner = "godotengine";
